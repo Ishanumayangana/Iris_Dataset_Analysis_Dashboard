@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#species-checklist {
+    padding-bottom: 20px;
+}
+
+#download-button {
+    margin-top: 20px;
+    background-color: #1f77b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#plots-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+#plots-container .div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
